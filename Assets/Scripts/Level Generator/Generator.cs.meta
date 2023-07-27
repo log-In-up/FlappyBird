@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 053c417b418d5684d92cbefcf1337e38
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _camera: {instanceID: 0}
+  - _player: {instanceID: 0}
+  - _bottomPipe: {fileID: 5961294824384000153, guid: cb57ee90e5b482c4ba20d8825151388b, type: 3}
+  - _topPipe: {fileID: 5961294824384000153, guid: ce73b0c9041e34941b9cfad12218c947, type: 3}
+  - _pipeParent: {instanceID: 0}
+  - _ground: {fileID: 5082972127452094640, guid: 7e6051a681fbc584da86e9eb1a584cd5, type: 3}
+  - _groundParent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

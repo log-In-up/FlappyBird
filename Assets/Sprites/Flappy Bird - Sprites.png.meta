@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: edf2d5dd25a5f214c8548553e30103bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background - 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 144
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a735c7f6e4d244fbf021cd0e506526
+      internalID: 498078751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background - 1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 256
+        width: 144
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ee1ea06b16b934ba90ab736dfc249b
+      internalID: -962757849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 456
+        width: 168
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d88a85feb984940a14b27babc2d163
+      internalID: -1587029107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tap to Start
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 371
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad08164edb8afc24c84d01078f86b816
+      internalID: -201659557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stats
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc18c0847060ed469346a09d83f3299
+      internalID: -1187245522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efe1e137a35cd2418f833c233965d0f
+      internalID: 63303853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copper Pipe - 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f753a98ff81964697738b7e7e01a98
+      internalID: -1994849418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copper Pipe - 1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb9141acce0cd439821482eb626699
+      internalID: 1900186206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Pipe - 0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae952bea09bb3f44ba28ac856fca45d
+      internalID: -168362065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Pipe - 1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 29
+        width: 26
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f804bc3a3ecc22446a60761151473a8a
+      internalID: 601802075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Bird - 1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 171
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c42561be5555d46ab74a35bbfccd33
+      internalID: 479737006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Bird - 2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 145
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c5696eeee0f4c458292a4ff089cb2f
+      internalID: 848508954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Bird - 0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 119
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a4c93183706ee4e80ba0fc9ced08ec
+      internalID: 680226343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Bird - 1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 93
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837fcfa4e41942a45b4082f89d28491c
+      internalID: 177155190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Bird - 2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 67
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bcbf67c55bb504f8869f18123dad54
+      internalID: -450328791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Bird - 0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adcc13af254a0343818196c8c5be504
+      internalID: -1221881331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Bird - 1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11971a996a43e574382848a323efc86b
+      internalID: -890486850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Bird - 2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47dfa60b579bcd4594a296bab4460a2
+      internalID: -143204970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Bird - 0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fff68469dfc01458da839d4cd2bcc5
+      internalID: -1476041822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Label
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 397
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13278069c0c09764cb1b8bfe10f8efef
+      internalID: 809049996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Background - 0: 498078751
+      Background - 1: -962757849
+      Blue Bird - 0: -1476041822
+      Blue Bird - 1: 479737006
+      Blue Bird - 2: 848508954
+      Copper Pipe - 0: -1994849418
+      Copper Pipe - 1: 1900186206
+      Game Label: 809049996
+      Green Pipe - 0: -168362065
+      Green Pipe - 1: 601802075
+      Ground: -1587029107
+      Mobile - Flappy Bird - Version 12 Sprites_10: -702088394
+      Mobile - Flappy Bird - Version 12 Sprites_11: 630067116
+      Mobile - Flappy Bird - Version 12 Sprites_12: 1663898934
+      Mobile - Flappy Bird - Version 12 Sprites_13: -2028460724
+      Mobile - Flappy Bird - Version 12 Sprites_14: 1663147529
+      Mobile - Flappy Bird - Version 12 Sprites_15: 1321238025
+      Mobile - Flappy Bird - Version 12 Sprites_16: 252652721
+      Mobile - Flappy Bird - Version 12 Sprites_17: -911227742
+      Mobile - Flappy Bird - Version 12 Sprites_18: -980165245
+      Mobile - Flappy Bird - Version 12 Sprites_19: 1374205611
+      Mobile - Flappy Bird - Version 12 Sprites_20: 664887268
+      Mobile - Flappy Bird - Version 12 Sprites_21: 354675279
+      Mobile - Flappy Bird - Version 12 Sprites_22: -1390613627
+      Mobile - Flappy Bird - Version 12 Sprites_23: 875841799
+      Mobile - Flappy Bird - Version 12 Sprites_24: 906335523
+      Mobile - Flappy Bird - Version 12 Sprites_25: -606330687
+      Mobile - Flappy Bird - Version 12 Sprites_26: -1400528700
+      Mobile - Flappy Bird - Version 12 Sprites_27: 643530730
+      Mobile - Flappy Bird - Version 12 Sprites_28: 1812565411
+      Mobile - Flappy Bird - Version 12 Sprites_30: -202639272
+      Mobile - Flappy Bird - Version 12 Sprites_31: 1498364785
+      Mobile - Flappy Bird - Version 12 Sprites_32: -1399817727
+      Mobile - Flappy Bird - Version 12 Sprites_33: 1591934948
+      Mobile - Flappy Bird - Version 12 Sprites_34: 405408004
+      Mobile - Flappy Bird - Version 12 Sprites_35: 604968319
+      Mobile - Flappy Bird - Version 12 Sprites_36: -1815170538
+      Mobile - Flappy Bird - Version 12 Sprites_37: -83778559
+      Mobile - Flappy Bird - Version 12 Sprites_38: 1163387210
+      Mobile - Flappy Bird - Version 12 Sprites_39: 1980517122
+      Mobile - Flappy Bird - Version 12 Sprites_4: 1595107543
+      Mobile - Flappy Bird - Version 12 Sprites_40: 2065464525
+      Mobile - Flappy Bird - Version 12 Sprites_41: 532216235
+      Mobile - Flappy Bird - Version 12 Sprites_42: 589195190
+      Mobile - Flappy Bird - Version 12 Sprites_43: 513172052
+      Mobile - Flappy Bird - Version 12 Sprites_44: -1266984658
+      Mobile - Flappy Bird - Version 12 Sprites_46: -262497374
+      Mobile - Flappy Bird - Version 12 Sprites_47: -895355115
+      Mobile - Flappy Bird - Version 12 Sprites_48: 1386173279
+      Mobile - Flappy Bird - Version 12 Sprites_5: -1439790745
+      Mobile - Flappy Bird - Version 12 Sprites_50: 600456468
+      Mobile - Flappy Bird - Version 12 Sprites_56: 2012271026
+      Mobile - Flappy Bird - Version 12 Sprites_58: -242538134
+      Mobile - Flappy Bird - Version 12 Sprites_59: -1255006079
+      Mobile - Flappy Bird - Version 12 Sprites_6: 2030579532
+      Mobile - Flappy Bird - Version 12 Sprites_60: 237891925
+      Mobile - Flappy Bird - Version 12 Sprites_62: -1097158387
+      Mobile - Flappy Bird - Version 12 Sprites_63: 1563645897
+      Mobile - Flappy Bird - Version 12 Sprites_64: 666581076
+      Mobile - Flappy Bird - Version 12 Sprites_66: -459900942
+      Mobile - Flappy Bird - Version 12 Sprites_67: 368779485
+      Mobile - Flappy Bird - Version 12 Sprites_68: 199099008
+      Mobile - Flappy Bird - Version 12 Sprites_69: 2047490761
+      Mobile - Flappy Bird - Version 12 Sprites_7: -673270193
+      Mobile - Flappy Bird - Version 12 Sprites_71: -690160908
+      Mobile - Flappy Bird - Version 12 Sprites_72: 2000275168
+      Mobile - Flappy Bird - Version 12 Sprites_73: 47621007
+      Mobile - Flappy Bird - Version 12 Sprites_74: -845335117
+      Mobile - Flappy Bird - Version 12 Sprites_75: 2144640993
+      Mobile - Flappy Bird - Version 12 Sprites_76: 1093845759
+      Mobile - Flappy Bird - Version 12 Sprites_77: 1654804652
+      Mobile - Flappy Bird - Version 12 Sprites_78: -768289003
+      Mobile - Flappy Bird - Version 12 Sprites_8: 77686833
+      Mobile - Flappy Bird - Version 12 Sprites_83: -1864767300
+      Mobile - Flappy Bird - Version 12 Sprites_84: 165400042
+      Mobile - Flappy Bird - Version 12 Sprites_85: -1770348719
+      Mobile - Flappy Bird - Version 12 Sprites_9: 1841436736
+      Pause: 63303853
+      Red Bird - 0: 680226343
+      Red Bird - 1: 177155190
+      Red Bird - 2: -450328791
+      Stats: -1187245522
+      Tap to Start: -201659557
+      Yellow Bird - 0: -1221881331
+      Yellow Bird - 1: -890486850
+      Yellow Bird - 2: -143204970
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
