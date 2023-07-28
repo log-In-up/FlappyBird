@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bd1525e9f90524fbcc6682e9e966da, type: 3}
+  m_Name: Difficulty Loader
+  m_EditorClassIdentifier: 
+  _data:
+  - {fileID: 11400000, guid: b6f7f85a3be92b748977a5def1b56b2b, type: 2}
+  - {fileID: 11400000, guid: be25da466a643fa4cb3a2ccbf86aa77d, type: 2}
+  - {fileID: 11400000, guid: ad73251ed7e03a9499e24641638d3a92, type: 2}

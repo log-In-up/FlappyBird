@@ -1,3 +1,4 @@
+using Level;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,10 @@ namespace UserInterface
         #region Editor fields
         [SerializeField] private Button _settings = null;
         [SerializeField] private Button _start = null;
+        #endregion
+
+        #region Fields
+        private Controller _controller = null;
         #endregion
 
         #region Properties
@@ -30,6 +35,13 @@ namespace UserInterface
 
             base.Deactivate();
         }
+
+        public override void Setup()
+        {
+            _controller = FindObjectOfType<Controller>();
+
+            base.Setup();
+        }
         #endregion
 
         #region Event handlers
@@ -37,10 +49,12 @@ namespace UserInterface
         {
             UICore.OpenScreen(UIScreen.Settings);
         }
-        
+
         private void OnClickStart()
         {
             UICore.OpenScreen(UIScreen.Game);
+
+            _controller.ShowPlayer();
         }
         #endregion
     }

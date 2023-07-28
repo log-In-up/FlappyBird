@@ -48,4 +48,4 @@ MonoBehaviour:
   appID: 
   UWPAppID: 
   isDebug: 1
-  getConversionData: 0
+  getConversionData: 1

@@ -560,6 +560,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Game Over
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 431
+        width: 98
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e851f09ff273f214582a9cc1fa39cd33
+      internalID: -1992087825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -579,6 +600,7 @@ TextureImporter:
       Copper Pipe - 0: -1994849418
       Copper Pipe - 1: 1900186206
       Game Label: 809049996
+      Game Over: -1992087825
       Green Pipe - 0: -168362065
       Green Pipe - 1: 601802075
       Ground: -1587029107

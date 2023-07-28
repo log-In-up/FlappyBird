@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pipe
   - Ground
+  - Gate
   layers:
   - Default
   - TransparentFX

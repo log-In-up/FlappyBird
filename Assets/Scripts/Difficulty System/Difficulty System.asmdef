@@ -1,13 +1,9 @@
 {
-    "name": "UserInterface",
+    "name": "DifficultySystem",
     "rootNamespace": "",
     "references": [
         "GUID:d528c8c98d269ca44a06cd9624a03945",
-        "GUID:b93f844d45cfcc44fa2b0eed5c9ec6bb",
-        "GUID:6bf351049fcceb14cb454c81f3d8294e",
-        "GUID:d1d86a8e67b48574895fae824c203e46",
-        "GUID:99959f3dfe8cd64419c3ffb41f4adfa8",
-        "GUID:4fc2cc964114bd045bec40f9b496047f"
+        "GUID:b93f844d45cfcc44fa2b0eed5c9ec6bb"
     ],
     "includePlatforms": [
         "Android",

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Player
@@ -10,6 +8,7 @@ namespace Player
     {
         #region Fields
         private Rigidbody2D _rigidbody2D = null;
+        private bool _isStopped;
         #endregion
 
         #region MonoBehaviour API
@@ -20,11 +19,14 @@ namespace Player
 
         private void Start()
         {
-            
+            _isStopped = true;
+            _rigidbody2D.gravityScale = 0.0f;
         }
 
         private void Update()
         {
+            if(_isStopped) return;
+
             if(Input.GetMouseButtonDown(0))
             {
                 MakeJump();
@@ -45,7 +47,16 @@ namespace Player
         #endregion
 
         #region Public API
+        public void Launch()
+        {
+            _rigidbody2D.gravityScale = 1.0f;
+            _isStopped = false;
+        }
 
+        public void Stop()
+        {
+            _isStopped = true;
+        }
         #endregion
     }
 }
