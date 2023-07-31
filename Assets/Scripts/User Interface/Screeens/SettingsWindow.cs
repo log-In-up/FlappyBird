@@ -1,4 +1,4 @@
-using Application;
+using Game;
 using DifficultySystem;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,4 +1,5 @@
 using UnityEngine;
+using Game;
 
 namespace Player
 {
@@ -7,6 +8,9 @@ namespace Player
     public sealed class Movement : MonoBehaviour
     {
         #region Fields
+        private float _jumpHeight;
+
+        private GameDifficultySystem _dameDifficultySystem;
         private Rigidbody2D _rigidbody2D = null;
         private bool _isStopped;
         #endregion
@@ -15,26 +19,34 @@ namespace Player
         private void Awake()
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
+            _dameDifficultySystem = Bootstrapper.Instance.GameDifficultySystem;
         }
 
         private void Start()
         {
             _isStopped = true;
             _rigidbody2D.gravityScale = 0.0f;
+
+            _jumpHeight = _dameDifficultySystem.GetDifficultyData().JumpHeight;
         }
 
         private void Update()
         {
-            if(_isStopped) return;
+            if (_isStopped) return;
 
-            if(Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 MakeJump();
             }
 
             if (Input.touchCount > 0)
             {
-                MakeJump();
+                Touch touch = Input.GetTouch(0);
+
+                if (touch.phase.Equals(TouchPhase.Ended))
+                {
+                    MakeJump();
+                }
             }
         }
         #endregion
@@ -42,7 +54,7 @@ namespace Player
         #region Methods
         private void MakeJump()
         {
-            _rigidbody2D.AddForce(Vector2.up * 5.0f, ForceMode2D.Impulse);
+            _rigidbody2D.AddForce(Vector2.up * _jumpHeight, ForceMode2D.Impulse);
         }
         #endregion
 
@@ -51,11 +63,14 @@ namespace Player
         {
             _rigidbody2D.gravityScale = 1.0f;
             _isStopped = false;
+
+            _jumpHeight = _dameDifficultySystem.GetDifficultyData().JumpHeight;
         }
 
         public void Stop()
         {
             _isStopped = true;
+            _rigidbody2D.gravityScale = 0.0f;
         }
         #endregion
     }

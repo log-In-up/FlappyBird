@@ -11,5 +11,6 @@ namespace DifficultySystem
         [field: SerializeField] public GameObject TopPipe { get; private set; }
         [field: SerializeField, Min(0.0f)] public float PipeSpawnDelay { get; private set; }
         [field: SerializeField, Min(0.0f)] public float LevelObjectsSpeed { get; private set; }
+        [field: SerializeField, Min(0.0f)] public float JumpHeight { get; set; }
     }
 }

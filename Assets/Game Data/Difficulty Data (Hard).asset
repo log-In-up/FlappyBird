@@ -18,3 +18,4 @@ MonoBehaviour:
   <TopPipe>k__BackingField: {fileID: 5961294824384000153, guid: ce73b0c9041e34941b9cfad12218c947, type: 3}
   <PipeSpawnDelay>k__BackingField: 1.5
   <LevelObjectsSpeed>k__BackingField: 2.5
+  <JumpHeight>k__BackingField: 3

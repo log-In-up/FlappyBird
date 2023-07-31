@@ -47,5 +47,6 @@ MonoBehaviour:
   devKey: ZLigGqGzDdxGMT7QBPjsMG
   appID: 
   UWPAppID: 
-  isDebug: 1
-  getConversionData: 1
+  macOSAppID: 
+  isDebug: 0
+  getConversionData: 0

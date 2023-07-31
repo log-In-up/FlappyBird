@@ -1,28 +1,31 @@
 using DifficultySystem;
 
-public class GameDifficultySystem
+namespace Game
 {
-    #region Fields
-    private DifficultyData _currentDifficulty = null;
-    private readonly DifficultyDataLoader _difficultyDataLoader = null;
-    #endregion
-
-    public GameDifficultySystem(DifficultyDataLoader difficultyDataLoader)
+    public sealed class GameDifficultySystem
     {
-        _difficultyDataLoader = difficultyDataLoader;
-    }
+        #region Fields
+        private DifficultyData _currentDifficulty = null;
+        private readonly DifficultyDataLoader _difficultyDataLoader = null;
+        #endregion
 
-    #region Public API
-    public void SetDifficulty(Difficulties difficulties)
-    {
-        _currentDifficulty = _difficultyDataLoader.GetDificulty(difficulties);
-    }
+        public GameDifficultySystem(DifficultyDataLoader difficultyDataLoader)
+        {
+            _difficultyDataLoader = difficultyDataLoader;
+        }
 
-    public string GetDifficultyName(Difficulties difficulties)
-    {
-        return _difficultyDataLoader.GetDificulty(difficulties).DifficultyName.ToString();
-    }
+        #region Public API
+        public void SetDifficulty(Difficulties difficulties)
+        {
+            _currentDifficulty = _difficultyDataLoader.GetDificulty(difficulties);
+        }
 
-    public DifficultyData GetDifficultyData() => _currentDifficulty;
-    #endregion
+        public string GetDifficultyName(Difficulties difficulties)
+        {
+            return _difficultyDataLoader.GetDificulty(difficulties).DifficultyName.ToString();
+        }
+
+        public DifficultyData GetDifficultyData() => _currentDifficulty;
+        #endregion
+    }
 }

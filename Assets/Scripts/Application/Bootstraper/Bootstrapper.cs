@@ -3,7 +3,7 @@ using SaveSystem;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Application
+namespace Game
 {
     [DisallowMultipleComponent]
     public sealed class Bootstrapper : MonoBehaviour, IDataPersistence

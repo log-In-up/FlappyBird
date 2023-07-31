@@ -2,7 +2,7 @@ using SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Application
+namespace Game
 {
     [DisallowMultipleComponent]
     public sealed class GameStarter : MonoBehaviour
